@@ -32,8 +32,3 @@ Neat's release process is mostly automated. Here's the steps:
 4. In `gradle.properties`, increment the build_number by one for the next version. Commit this.
 5. Push master and the release tag: `git push origin master release-<mc_version>-<build_number>`
 6. Shortly after, the mod should be automatically uploaded to GitHub's release tab, Modrinth, and CurseForge.
-
-## Signing
-Releases are signed with the Violet Moon signing key, see [this
-page](https://github.com/VazkiiMods/.github/blob/main/security/README.md) for information
-about how to verify the artifacts.
